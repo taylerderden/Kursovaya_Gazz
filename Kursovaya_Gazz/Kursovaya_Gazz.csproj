@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Kursovaya_Gazz</RootNamespace>
     <AssemblyName>Kursovaya_Gazz</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -193,6 +193,9 @@
       <DependentUpon>CalcForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DataBase.cs" />
+    <Compile Include="DataQR.cs">
+      <DependentUpon>DataQR.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataQR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -57,6 +57,7 @@
             this.dGVDolg.RowTemplate.Height = 24;
             this.dGVDolg.Size = new System.Drawing.Size(690, 373);
             this.dGVDolg.TabIndex = 0;
+            this.dGVDolg.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dGVDolg_DataError);
             // 
             // tBID
             // 

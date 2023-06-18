@@ -57,6 +57,7 @@
             this.dGVLgota.RowTemplate.Height = 24;
             this.dGVLgota.Size = new System.Drawing.Size(705, 355);
             this.dGVLgota.TabIndex = 0;
+            this.dGVLgota.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dGVLgota_DataError);
             // 
             // btnDel
             // 

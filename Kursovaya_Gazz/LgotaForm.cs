@@ -285,5 +285,11 @@ namespace Kursovaya_Gazz
                 e.Handled = true;
             }
         }
+
+        private void dGVLgota_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            //while (dGVLgota.Rows.Count > 1)
+               // dGVLgota.Rows.Remove(dGVLgota.Rows[0]);
+        }
     }
 }

@@ -57,6 +57,7 @@
             this.dGVTarif.RowTemplate.Height = 24;
             this.dGVTarif.Size = new System.Drawing.Size(722, 364);
             this.dGVTarif.TabIndex = 0;
+            this.dGVTarif.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dGVTarif_DataError);
             // 
             // tBPrice
             // 

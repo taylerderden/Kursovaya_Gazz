@@ -81,6 +81,18 @@ namespace Kursovaya_Gazz
             else
                 MessageBox.Show("Данные уже существуют!"); //иначе предупреждение о том что данные уже существуют
         }
+
+        private void labClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            AuthorizationForm fForm = new AuthorizationForm();
+            fForm.Show();
+        }
+
+        private void labelCol_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
 

@@ -62,6 +62,7 @@
             this.dGVPokazanie.RowTemplate.Height = 24;
             this.dGVPokazanie.Size = new System.Drawing.Size(803, 378);
             this.dGVPokazanie.TabIndex = 0;
+            this.dGVPokazanie.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dGVPokazanie_DataError);
             // 
             // label2
             // 

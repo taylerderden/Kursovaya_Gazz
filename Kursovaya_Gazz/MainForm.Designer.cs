@@ -145,7 +145,8 @@
             this.toolStripBtnCalc.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripBtnCalc.Margin = new System.Windows.Forms.Padding(40, 1, 10, 2);
             this.toolStripBtnCalc.Name = "toolStripBtnCalc";
-            this.toolStripBtnCalc.Size = new System.Drawing.Size(95, 52);
+            this.toolStripBtnCalc.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.toolStripBtnCalc.Size = new System.Drawing.Size(115, 52);
             this.toolStripBtnCalc.Text = "Расчёт";
             this.toolStripBtnCalc.Click += new System.EventHandler(this.toolStripBtnCalc_Click);
             // 
@@ -157,7 +158,8 @@
             this.tSBtnPodtv.Image = ((System.Drawing.Image)(resources.GetObject("tSBtnPodtv.Image")));
             this.tSBtnPodtv.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tSBtnPodtv.Name = "tSBtnPodtv";
-            this.tSBtnPodtv.Size = new System.Drawing.Size(178, 52);
+            this.tSBtnPodtv.Padding = new System.Windows.Forms.Padding(20, 6, 0, 0);
+            this.tSBtnPodtv.Size = new System.Drawing.Size(198, 52);
             this.tSBtnPodtv.Text = "Верификация";
             this.tSBtnPodtv.ToolTipText = "Верификация";
             this.tSBtnPodtv.Click += new System.EventHandler(this.tSBtnPodtv_Click);
@@ -166,7 +168,7 @@
             // 
             this.tsBtnExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.tsBtnExit.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold);
-            this.tsBtnExit.ForeColor = System.Drawing.Color.White;
+            this.tsBtnExit.ForeColor = System.Drawing.Color.Black;
             this.tsBtnExit.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnExit.Image")));
             this.tsBtnExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnExit.Name = "tsBtnExit";

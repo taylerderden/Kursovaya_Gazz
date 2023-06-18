@@ -306,6 +306,12 @@ namespace Kursovaya_Gazz
                 e.Handled = true;
             }
         }
+
+        private void dGVTarif_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            //while (dGVTarif.Rows.Count > 1)
+                //dGVTarif.Rows.Remove(dGVTarif.Rows[0]);
+        }
     }
     }
 

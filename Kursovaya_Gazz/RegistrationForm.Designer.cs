@@ -243,7 +243,7 @@ namespace Kursovaya_Gazz
             this.labelColla.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelColla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelColla.ForeColor = System.Drawing.Color.Black;
-            this.labelColla.Location = new System.Drawing.Point(583, 2);
+            this.labelColla.Location = new System.Drawing.Point(584, 5);
             this.labelColla.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelColla.Name = "labelColla";
             this.labelColla.Size = new System.Drawing.Size(25, 20);
@@ -258,7 +258,7 @@ namespace Kursovaya_Gazz
             this.labelClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelClose.ForeColor = System.Drawing.Color.Black;
-            this.labelClose.Location = new System.Drawing.Point(616, 0);
+            this.labelClose.Location = new System.Drawing.Point(616, 4);
             this.labelClose.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelClose.Name = "labelClose";
             this.labelClose.Size = new System.Drawing.Size(23, 22);
