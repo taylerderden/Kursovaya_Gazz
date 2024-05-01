@@ -235,6 +235,7 @@
             // textBoxFIO
             // 
             this.textBoxFIO.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBoxFIO.Enabled = false;
             this.textBoxFIO.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFIO.Location = new System.Drawing.Point(99, 135);
             this.textBoxFIO.Name = "textBoxFIO";
